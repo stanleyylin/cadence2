@@ -1,16 +1,16 @@
 @font-face {
   font-family: "GoodTime Regular";
-  src: url("./fonts/GoodTime.otf") format("opentype");
+  src: url("../public/fonts/GoodTime.otf") format("opentype");
 }
 
 @font-face {
   font-family: "KoraTaki";
-  src: url("./fonts/KoraTaki\ Regular.ttf") format("truetype");
+  src: url("../public/fonts/KoraTaki Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "GoodTime Light";
-  src: url("./fonts/GoodTimes\ Lt.ttf") format("truetype");
+  src: url("../public/fonts/GoodTimes Lt.ttf") format("truetype");
 }
 
 html,

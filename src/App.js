@@ -1,9 +1,11 @@
 import React from "react";
 
+import Header from "./pages/landing/Header";
+
 const App = () => {
   return (
     <div>
-      <div></div>
+      <Header />
     </div>
   );
 };
