@@ -28,7 +28,7 @@ const Navbar = () => {
           <Link to="/upload" className='test'>UPLOAD</Link> {/* Update the link to point to "/upload" */}
         </li>
         <li>
-          CART
+          <Link to="/feed" className='test'>FEED</Link> 
         </li>
         <li>
           ACCOUNT
