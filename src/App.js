@@ -1,14 +1,19 @@
 import React from "react";
 
-import Header from "./pages/landing/Header";
-import Navbar from "./components/Navbar";
+import Layout from "./pages/Layout";
+import Landing from "./pages/landing/Landing";
+import Carousel from "./pages/landing/Carousel";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 const App = () => {
   return (
-    <div>
-      <Navbar />
-      <Header />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Landing />} />
+        </Route>
+      </Routes>
+    </Router>
   );
 };
 

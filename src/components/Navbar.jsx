@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
 import './navbar.css';
 
 const Navbar = () => {
@@ -10,8 +11,8 @@ const Navbar = () => {
 
   return (
     <nav className="primary">
-      <div className='logo'>
-      </div>
+      <Link to="/" className='logo'>
+      </Link>
 
       <button onClick={toggleNav} className="mobile-nav-toggle" aria-controls="primary-naviation" aria-expanded={visible}>
         <span className="sr-only">Menu</span>

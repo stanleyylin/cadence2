@@ -43,7 +43,6 @@
 
 .primary-navigation li:hover {
   filter: brightness(0.8);
-  text-decoration: underline;
 }
 
 .mobile-nav-toggle {

@@ -2,6 +2,7 @@
   position: relative;
   height: 100vh;
   min-height: 1000px;
+  background-image: linear-gradient();
 }
 
 .video-element {
@@ -54,6 +55,7 @@
   color: white;
   width: 70%;
 }
+
 .p2 {
   margin-top: 40px;
 }
