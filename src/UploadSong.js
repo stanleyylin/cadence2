@@ -2,7 +2,7 @@
 
 const UploadToJackal = async function(file){
     console.log(file);
-
+    await new Promise(r => setTimeout(r, 2000));
     // const walletConfig = {
     //     signerChain: 'jackal-1', 
     //     enabledChains: ['jackal-1'],
