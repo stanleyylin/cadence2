@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 80vh;
 }
 
 .feed-bg {
@@ -10,7 +11,7 @@
   top: 0px;
   left: 0px;
   width: 110vw;
-  z-index: 0;
+  z-index: 1;
 }
 .title-explore {
   font-size: 35px;
@@ -20,10 +21,17 @@
   z-index: 5;
 }
 
+.success {
+  font-size: 35px;
+  color: white;
+  font-family: GoodTime Regular;
+}
+
 .song-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 60px;
   margin-top: 120px;
   margin-bottom: 200px;
+  z-index: 5;
 }

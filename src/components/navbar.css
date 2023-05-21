@@ -19,6 +19,7 @@
   width: 100vw;
   z-index: 9999;
   padding-bottom: -20px;
+  backdrop-filter: blur(5px);
   background: linear-gradient(to bottom, #000000, #0000000b);
 }
 
@@ -33,6 +34,9 @@
   cursor: pointer;
 }
 
+.logo:hover {
+  transform: scale(1.02);
+}
 .logo::before {
   content: "CADENCE";
 }
@@ -50,14 +54,22 @@
   color: white;
   font-family: GoodTime Regular;
   cursor: pointer;
-  transition: filter 0.3s ease;
+  transition: all 500ms;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
 }
 
 .test:hover {
   filter: brightness(0.8);
+  transform: scale(1.04);
 }
 
+.test:link {
+  color: white !important;
+}
+
+.test {
+  transition: all 500ms;
+}
 .test:visited {
   color: white !important;
 }
