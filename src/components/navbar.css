@@ -41,8 +41,12 @@
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
 }
 
-.primary-navigation li:hover {
+.test:hover {
   filter: brightness(0.8);
+}
+
+.test:visited {
+  color: white !important;
 }
 
 .mobile-nav-toggle {

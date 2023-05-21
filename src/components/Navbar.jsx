@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <nav className="primary">
-      <div className="logo"></div>
+      <Link to="/" className="logo"></Link>
 
       <button
         onClick={toggleNav}
@@ -25,10 +25,10 @@ const Navbar = () => {
 
       <ul id="primary-navigation" className={`primary-navigation ${visible ? 'visible' : ''}`}>
         <li>
-          <Link to="/upload">UPLOAD</Link> {/* Update the link to point to "/upload" */}
+          <Link to="/upload" className='test'>UPLOAD</Link> {/* Update the link to point to "/upload" */}
         </li>
         <li>
-          CARD
+          CART
         </li>
         <li>
           ACCOUNT
