@@ -54,6 +54,7 @@
   text-align: center;
   color: white;
   width: 70%;
+  z-index: 10;
   animation: pulse 4s ease-in-out infinite;
 }
 

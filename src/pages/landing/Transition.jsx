@@ -3,6 +3,7 @@ import './transition.css';
 import artist1 from '../../res/artists/artist1.png';
 import artist2 from '../../res/artists/artist2.png';
 import artist3 from '../../res/artists/artist3.png';
+import { Link } from 'react-router-dom';
 
 const Transition = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -24,7 +25,9 @@ const Transition = () => {
     <div className="transition-container">
       <div className='transition-left'>
         <p>YOUR FAVOURITE ARTISTS FOR YOUR PROJECTS</p>
-        <button className='explore-button'>EXPLORE</button>
+        <Link to="/feed"> 
+          <button className='explore-button'>EXPLORE</button>
+        </Link>
       </div>
       <img
         src={images[currentImageIndex]}

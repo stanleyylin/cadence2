@@ -46,7 +46,7 @@ const Navbar = () => {
           <Link to="/feed" className='test'>FEED</Link> 
         </li>
         <li>
-          ACCOUNT
+          <Link to="/account" className='test'>ACCOUNT</Link> 
         </li>
       </ul>
     </nav>
