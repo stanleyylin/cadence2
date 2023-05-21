@@ -4,6 +4,7 @@
   justify-content: space-between;
   align-items: center;
   top: 0;
+  padding-top: 20px;
   width: 100vw;
   z-index: 9999;
   padding-bottom: -20px;
@@ -14,18 +15,18 @@
   justify-content: space-between;
   align-items: center;
   top: 0;
+  padding-top: 20px;
   width: 100vw;
   z-index: 9999;
   padding-bottom: -20px;
-  padding: 0px 0;
-  background-color: #121212a3;
+  background: linear-gradient(to bottom, #000000, #0000000b);
 }
 
 .logo {
   font-family: KoraTaki;
-  font-size: 20px;
+  font-size: 30px;
   margin: 2rem;
-  margin-left: 3rem;
+  margin-left: 4rem;
   color: white;
   filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 1));
   transition: all 500ms;
