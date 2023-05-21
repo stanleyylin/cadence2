@@ -9,7 +9,7 @@ const songs = [
   {
     id: "ALJDSF89Q3",
     imageSrc: "song1.png",
-    name: "Snooze",
+    name: "SOS",
     artist: "SZA",
     year: "2022",
     cost: "2 Eth",
@@ -18,7 +18,7 @@ const songs = [
   {
     id: "ZX9C0DFKLIF",
     imageSrc: "song2.png",
-    name: "Jackie Brown",
+    name: "All Mine",
     artist: "Brent Faiyaz",
     year: "2022",
     cost: "1 Eth",
@@ -27,7 +27,7 @@ const songs = [
   {
     id: "OFIUAD939",
     imageSrc: "song3.png",
-    name: "Moonlight",
+    name: "Moonlight Teaser",
     artist: "Kali Uchis",
     year: "2023",
     cost: "1 Eth",
