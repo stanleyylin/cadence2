@@ -18,12 +18,12 @@
   z-index: 9999;
   padding-bottom: -20px;
   padding: 0px 0;
-  background-color: #121212;
+  background-color: #121212a3;
 }
 
 .logo {
   font-family: KoraTaki;
-  font-size: 40px;
+  font-size: 20px;
   margin: 2rem;
   margin-left: 3rem;
   color: white;
