@@ -1,24 +1,24 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './UploadButton.css';
 
 const UploadButton = () => {
-  const handleFileUpload = (event) => {
+  const fileInputRef = useRef(null);
+
+  const handleFileInputChange = (event) => {
     const file = event.target.files[0];
-    // Perform any necessary operations with the uploaded file
-    console.log('Uploaded file:', file);
+    // Handle the selected file as needed
+    console.log('Selected file:', file);
   };
 
   return (
-    <div>
-      <label htmlFor="file-upload" className="upload-button">
-        Upload MP3
-      </label>
+    <div className="upload-button">
       <input
-        id="file-upload"
+        ref={fileInputRef}
         type="file"
-        accept=".mp3"
-        onChange={handleFileUpload}
+        accept="audio/mpeg"
+        onChange={handleFileInputChange}
       />
+      <button onClick={() => fileInputRef.current.click()}>Upload Music</button>
     </div>
   );
 };

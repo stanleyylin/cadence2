@@ -1,15 +1,17 @@
 .upload-button {
     display: inline-block;
-    background-color: blue;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    border: none;
   }
   
   .upload-button input[type="file"] {
     display: none;
+  }
+  
+  .upload-button button {
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
   }
   
