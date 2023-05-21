@@ -13,7 +13,7 @@ const Transition = () => {
       setCurrentImageIndex((prevIndex) =>
         prevIndex === 2 ? 0 : prevIndex + 1
       );
-    }, 5000);
+    }, 2000);
 
     return () => {
       clearInterval(interval);
