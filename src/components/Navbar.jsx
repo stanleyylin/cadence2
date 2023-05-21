@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './navbar.css';
-import UploadPage from '../pages/UploadPage';
+import UploadPage from '../pages/upload/UploadPage';
 
 const Navbar = () => {
   const [visible, setVisible] = useState(false);

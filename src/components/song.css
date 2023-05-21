@@ -20,7 +20,7 @@
   align-items: center;
   justify-content: center;
   padding-top: 24px;
-  padding-bottom: 10px;
+  padding-bottom: 32px;
 }
 
 .lower > h2 {
@@ -30,7 +30,7 @@
   font-size: 28px;
   text-align: left;
   color: white;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .song-container p {
   width: 100%;

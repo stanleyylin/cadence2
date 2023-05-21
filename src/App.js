@@ -2,7 +2,7 @@ import React from "react";
 
 import Layout from "./pages/Layout";
 import Landing from "./pages/landing/Landing";
-import UploadPage from "./pages/UploadPage";
+import UploadPage from "./pages/upload/UploadPage";
 import Feed from "./pages/feed/Feed";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";

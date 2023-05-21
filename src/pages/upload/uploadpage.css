@@ -1,0 +1,88 @@
+.upload-container {
+  background-color: rgb(0, 0, 0);
+  height: 160vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-content: center;
+}
+
+.upload-bg {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0) 80%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("../../res/fluid.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 600px;
+
+  z-index: 1;
+}
+
+.heading-upload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 300px;
+}
+
+.heading-upload > p {
+  z-index: 1;
+  font-size: 20px;
+  text-align: center;
+  font-family: GoodTime Regular;
+  color: white;
+  width: 100%;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  margin-top: 30px;
+}
+
+.heading-upload > h1 {
+  font-family: KoraTaki;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  width: 70%;
+  animation: pulse 4s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.p2 {
+  margin-top: 40px;
+}
+
+.video-container {
+  position: absolute;
+  bottom: 0;
+  place-self: center;
+  z-index: 0;
+}
+
+.video-ending {
+  object-fit: cover;
+}
