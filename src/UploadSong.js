@@ -1,4 +1,4 @@
-import { WalletHandler, RnsHandler, StorageHandler, FileIo, FileUploadHandler } from 'jackal.js';
+//import { WalletHandler, RnsHandler, StorageHandler, FileIo, FileUploadHandler } from 'jackal.js';
 
 const UploadToJackal = async function(file){
     console.log(file);
