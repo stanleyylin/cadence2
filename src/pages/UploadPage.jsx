@@ -7,11 +7,10 @@ const UploadPage = () => {
   return (
     <div className='feed-container'>
       <img src={carl} className='feed-bg'/>
-      <div className='heading-subcontainer'>
+      <div className='heading-upload'>
         <h1>Upload Page</h1>
         <p>Upload your music here.</p> 
             <div>
-            <h1>Upload Page</h1>
             <UploadButton />
             </div>
       </div>
