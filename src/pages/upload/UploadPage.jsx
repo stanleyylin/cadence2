@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './uploadpage.css';
 import UploadForm from '../../components/UploadForm';
 import swirly from '../../res/swirly.mp4';

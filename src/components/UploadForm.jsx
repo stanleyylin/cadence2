@@ -12,6 +12,7 @@ const UploadForm = () => {
   const [cost, setCost] = useState('');
   const [formError, setFormError] = useState('');
 
+  const [success, setSuccess] = useState(false);
   const handleFileInputChange = (event) => {
     const file = event.target.files[0];
     setSelectedFile(file);
@@ -44,11 +45,12 @@ const UploadForm = () => {
     setArtist('');
     setCost('');
     setFormError('');
+    setSuccess(true);
   };
 
   return (
     <div className="upload-form">
-      <div>
+      <div className='lil-thang'>
 
       {/* mp3 file */}
       <input
@@ -63,6 +65,12 @@ const UploadForm = () => {
           onClick={() => fileInputRef.current.click()}>
             Upload Music
         </button>
+
+        {selectedFile && (
+          <p className='file-name'>
+            {selectedFile.name}
+          </p>
+        )}
       </div>
 
       {/* thumbnail */}
@@ -116,6 +124,7 @@ const UploadForm = () => {
         />
         <button type="submit" className='submit-button'>Submit</button>
         {formError && <div className="error-message">{formError}</div>}
+        {success && <div className="momo"><p>Uploaded</p></div>}
       </form>
     </div>
   );

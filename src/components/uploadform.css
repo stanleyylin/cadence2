@@ -14,6 +14,20 @@
   justify-content: center;
 }
 
+.file-name {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  font-family: GoodTime Regular;
+}
+
+.lil-thang {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .thumbnail-button {
   background-color: white;
   width: 240px;
@@ -107,4 +121,11 @@
   margin-top: 25px;
   width: 60%;
   text-align: center;
+}
+
+.momo {
+  margin-top: 32px;
+  color: white;
+  font-family: GoodTime Regular;
+  font-size: 20px;
 }
