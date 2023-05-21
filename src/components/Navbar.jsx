@@ -39,15 +39,21 @@ const Navbar = () => {
       </button>
 
       <ul id="primary-navigation" className={`primary-navigation ${visible ? 'visible' : ''}`}>
-        <li>
-          <Link to="/upload" className='test'>UPLOAD</Link> {/* Update the link to point to "/upload" */}
-        </li>
-        <li>
-          <Link to="/feed" className='test'>FEED</Link> 
-        </li>
-        <li>
-          <Link to="/account" className='test'>ACCOUNT</Link> 
-        </li>
+        <Link to="/upload" className='test'>
+          <li>
+            UPLOAD
+          </li>
+        </Link>
+        <Link to="/feed" className='test'>
+          <li>
+            FEED
+          </li>
+        </Link>
+        <Link to="/account" className='test'>
+          <li>
+            ACCOUNT
+          </li>
+        </Link>
       </ul>
     </nav>
   );

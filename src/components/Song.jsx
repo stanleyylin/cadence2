@@ -14,6 +14,13 @@ const Song = ({song}) => {
     importImage();
   }, [song.imageSrc]);
 
+  const [showPopup, setShowPopup] = useState(false);
+
+  const handlePurchase = () => {
+    setShowPopup(true);
+  };
+  
+
   return (
 
     
@@ -24,7 +31,8 @@ const Song = ({song}) => {
         <p>{song.artist}</p>
         <p>{song.year}</p>
         <p>{song.cost}</p>
-        <button className='buy'>BUY</button>
+        <button className='buy' onClick={handlePurchase}>{song.option}</button>
+        {showPopup && <p className='success'> Thank you for purchasing! Your key is: {song.id} </p>}
       </div>
       
       
