@@ -1,0 +1,12 @@
+.feed-background {
+    background-color: black;
+  }
+  
+  .feed-bg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 110vw;
+    z-index: -1;
+  }
+  
