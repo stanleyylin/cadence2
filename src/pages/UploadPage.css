@@ -9,15 +9,19 @@
     width: 110vw;
     z-index: -1;
   }
-
+  
   .heading-upload {
     display: flex;
-    position: absolute;
-    top: 330px;
     flex-direction: column;
-    z-index: 10;
-    place-items: center;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
   }
+  
   .heading-upload > p {
     z-index: 1;
     font-size: 20px;
@@ -28,6 +32,7 @@
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
     margin-top: 30px;
   }
+  
   .heading-upload > h1 {
     font-family: KoraTaki;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
@@ -37,6 +42,7 @@
     width: 70%;
     animation: pulse 4s ease-in-out infinite;
   }
+  
   @keyframes pulse {
     0% {
       transform: scale(1);
