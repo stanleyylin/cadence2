@@ -27,7 +27,10 @@ const Navbar = () => {
 
   return (
     <nav className={scrolled ? "primary-scrolled" : "primary"}>
-      <Link to="/" className="logo"></Link>
+      <Link to="/" className="logo"><div className='flex'>
+        <p>CADENCE</p>
+        <p className='credits'>A project by Gavin, Rebbi, Stanley, Kelly</p>
+      </div></Link>
 
       <button
         onClick={toggleNav}

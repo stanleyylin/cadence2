@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 80vh;
 }
 
 .feed-bg {
@@ -13,6 +12,7 @@
   width: 110vw;
   z-index: 1;
 }
+
 .title-explore {
   font-size: 35px;
   color: white;
