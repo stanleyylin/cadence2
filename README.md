@@ -10,3 +10,5 @@ The advantage of utilizing blockchain technology is that music artists receive t
 
 ## How we built it
 For our backend, we used Near as we were attracted to its beginner-friendliness and organized documentation. It played a really big part in helping us come to understand blockchain, NFTs, and smart contracts. Jackal was employed to ensure secure peer-to-peer transactions and store the music data. These frameworks were actualized using TypeScript and JavaScript. To generate NFTs, we leveraged Pinata, Alchemy, MetaMask with a Goerli address, and HardHat. Finally, our frontend was created using ReactJS.
+
+There is a frontend-only demo available (since the backend requires actual payment) in the link above!
